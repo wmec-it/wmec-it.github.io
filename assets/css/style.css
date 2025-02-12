@@ -1,4 +1,26 @@
----
----
+@import "./vars.css";
 
-@import "wmec-it-theme";
+#title {
+  color: var(--accent-color);
+}
+
+#pages-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+#pages-section ul li a {
+  --padding: 20px;
+
+  min-width: 200px;
+  background: var(--bg-primary-lighter);
+  border-radius: 5px;
+  padding: calc(var(--padding) / 2) var(--padding);
+  transition: 100ms ease all;
+}
+
+#pages-section ul li a:hover {
+  text-decoration: none;
+  background: var(--bg-secondary-lighter);
+  color: var(--accent-color);
+}

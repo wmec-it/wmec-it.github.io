@@ -1,12 +1,4 @@
-:root {
-  --bg-primary: #121212;
-  --bg-secondary: #1E1E1E;
-  --text-primary: #E0E0E0;
-  --text-secondary: #A0A0A0;
-  --accent-color: #F57E20;
-  --border-color: #666666;
-  --code-bg: #3B3B3B;
-}
+@import "./vars.css";
 
 body {
   background-color: var(--bg-primary);
