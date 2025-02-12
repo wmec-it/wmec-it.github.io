@@ -1,0 +1,11 @@
+:root {
+  --bg-primary: #121212;
+  --bg-primary-lighter: #222222;
+  --bg-secondary: #1e1e1e;
+  --bg-secondary-lighter: #303030;
+  --text-primary: #f1f1f1;
+  --text-secondary: #a0a0a0;
+  --accent-color: #f57e20;
+  --border-color: #666666;
+  --code-bg: #3b3b3b;
+}
